@@ -1,0 +1,136 @@
+<html>
+    <head>
+        <title>Mark Lyons - Software Engineer</title>
+        <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <div id="top-contain">
+            <h1 class="mark-h1">Mark Lyons</h1>
+                <img src="profile.png" id="profile-image" align="left">
+                <p>
+                    Hi, my name is Mark and I am a Software Engineer primarily focused on web and mobile development. I recently graduated from the University of Maryland with a B.S. in Computer Science. Outside of tech, I enjoy running, reading, playing video games, working on old cars, and riding my motorcycle (in 2017 <a href="https://www.instagram.com/p/BlJ72teFyb_/?taken-by=mlyons23" target="_blank">I rode 8,000 miles and camped all around the country!</a>) although I'm always working on a personal project, some of which you can read about below.
+                </p>
+            </div>
+
+            <a href="https://github.com/marklyons" target="_blank" class="soc-a">
+                <div class="social-link">
+                    <img src="github-logo.png">
+                    <span>My Github Repos</span>
+                </div>
+            </a>
+
+            <a href="https://www.linkedin.com/in/mark-lyons-87a27955/" target="_blank" class="soc-a">
+                <div class="social-link">
+                    <img src="linkedin-sign.png">
+                    <span>My LinkedIn Profile</span>
+                </div>
+            </a>
+
+            <a href="https://stackoverflow.com/users/1103669/mark-lyons" target="_blank" class="soc-a">
+                <div class="social-link">
+                    <img src="stack-exchange-logo.png">
+                    <span>My StackOverflow</span>
+                </div>
+            </a>
+
+            <a href="#" target="_blank" class="soc-a">
+                <div class="social-link">
+                    <img src="text-file-1.png">
+                    <span>My Resume</span>
+                </div>
+            </a>
+
+            <a href="mailto:lyons340@gmail.com" target="_blank" class="soc-a">
+                <div class="social-link">
+                    <img src="envelope.png">
+                    <span>Email Me</span>
+                </div>
+            </a>
+
+            <h1 class="proj-header">Projects</h1>
+            <p>
+                Here are a few of the projects I am most proud of. If you are a recruiter who is here after reading my resume, you've probably read about a few of these already. However, here I have the room to explain them more, and there are a few projects here that didn't quite make the resume.
+            </p>
+
+            <br>
+
+            <h2>ZCarGuide</h2>
+            <span class="project-subtitle"><a href="https://github.com/marklyons/ZCarGuide" target="_blank">Code on GitHub</a> - started 2017</span>
+            <img src="zc-logo.jpg" class="project-img" align="left">
+            <p>
+                ZCarGuide was built to be the best resource for Datsun 240Z owners. The 240Z was a car built by Nissan (whose vehicle division was then known as Datsun) in the 70s that has now become a collectible vintage car with a hobbyist following. I was fortunate enough to find an affordable 240Z for sale in 2015 and have learned a lot while working on and maintaining my 240Z. So, to help others by making this information available online, and to make some money through display advertising and affiliate sales, I started <a href="https://zcarguide.com/" target="_blank">ZCarGuide</a>.
+            </p>
+            <p>
+                The site is now about a year old and has grown steadily each month as I've added new content and features. One new feature I have added is the <a href="https://zcarguide.com/datsun-nissan-z-cars-for-sale/" target="_blank">listings section</a> of the site. While the rest of the site is content-based, this portion of the site actually required a lot of code! The project involved a lot of Javscript and PHP on the front-end of the site, and also some PHP to build the Wordpress plugin for maintaining listings. Some of the source code behind all this can be found on my GitHub.
+            </p>
+
+            <br>
+
+            <h2>Citros Bar POS</h2>
+            <span class="project-subtitle">Source code not public - started 2017</span>
+            <img src="citros-sc.png" class="project-img" align="left">
+            <p>
+                Citros is one of the largest projects I've undertaken. Rather than explain the purpose of Citros on this site, <a href="https://www.youtube.com/watch?v=9-DGSkTlKoE" target="_blank">here is a demo video</a> of the software in action. I have been working on this project in my free time for a few months now and hope to bring the product to market at some point in the future. The codebase is the largest I've worked on solo as it primarily an iOS application and an Android application (built with Javascript thanks to PhoneGap) that has to be run on a case-specific rooted Android tablet.
+            </p>
+            <p>
+                The project also involves a REST API written in Ruby, with Sinatra to make things simple. The API communicates with a PostgreSQL database. Another form of communication is socket-based through Socket.io. Some hardware stuff not mentioned in the demo video: The custom clamp which attaches the tablet to the bar is built to be extremely secure to last in a fast-paced, hectic environment behind the bar. Additionally, the clamp has some branding on top of it which involves some neat LED and backlighting controlled by an Arduino UNO that communicates with the Android app via Bluetooth.
+            </p>
+
+            <br>
+
+            <h2>CheerUpper</h2>
+            <span class="project-subtitle"><a href="https://github.com/marklyons/CheerUpper" target="_blank">Code on GitHub</a> - built in 2015</span>
+            <img src="cu-sc.jpg" class="project-img" align="left">
+            <p>
+                CheerUpper was a project I built with my roommates, Anthony DiMeo and Billy Sluder, who were also CS students at the University of Maryland. We needed a project idea for Bitcamp, the 36-hour hackathon that UMD hosts every year. I had a rough version of the idea in my head and the night before the hackathon, Billy, Anthony and I fleshed out the final details.
+            </p>
+            <p>
+                CheerUpper aggregated a database of Tweets that indicate that the poster is feeling sad or down by use of a simple algorithm and MetaMind's sentiment analysis API. From there, other users can visit the website and anonymously post a positive response to these Tweets that is sent from the official CheerUpper Twitter account.
+            </p>
+            <p>
+                While the project was simple and fun to build, the response was amazing! Although Bitcamp did not have its own awards, many of the companies that demoed their API for the competition did host awards. We ended up winning Twitter's 'Best Use of API' award and won some Beats headphones. We also received an honorable mention from MetaMind. Even more exciting, CheerUpper ended up receiving some really cool press coverage. We had a few articles written about us (<a href="https://news.mlh.io/can-we-hack-happiness-04-22-2015" target="_blank">Major League Hacking</a>, <a href="https://www.dailydot.com/debug/sad-twitter-cheerupper/" target="_blank">The Daily Dot</a>, <a href="http://cmns.umd.edu/news-events/news/3023" target="_blank">The Diamondback</a>, and tons of others) and we were then featured on <a href="https://www.cbc.ca/radio/spark/285-data-collection-cheering-up-the-internet-and-more-1.3061448/how-to-make-the-internet-a-happier-place-1.3061555" target="_blank">CBC Radio</a> and <a href="http://www.abc.net.au/radionational/programs/futuretense/" target="_blank">ABC Australia</a>'s Future Tense radio show!
+            </p>
+
+            <p>
+                While we ended up closing the project down due to API updates we didn't keep up with, you can still view the <a href="https://twitter.com/Cheer_Upper" target="_blank">Twitter page</a> and the source code on my GitHub. Billy, Anthony, and I have some plans to bring the site back in the future.
+            </p>
+
+            <br>
+
+            <h2>YouTube RealTime</h2>
+            <span class="project-subtitle">Source code no longer available - built in 2012</span>
+            <img src="yt-rt.jpg" class="project-img" align="left">
+            <p>
+                YouTube RealTime was a site I built in 2012 that utilized the YouTube API to provide "time-specific comments". For a short explanation, some YouTube comments include a timestamp to reference a specific point in the video, ex: "Did you see the guy at 1:50?" and these types of comments are pretty common actually. YouTube actually makes those timestamps linked automatically so that if a user clicks on the comment, it will jump to that time in the video on the user's video client.
+            </p>
+
+            <p>
+                YTRT was a simple site that utilized this functionality to provide a feed of these comments as the user watches. When the video got to that 1:50 point, for example, the comment(s) mentioning that timestamp would scroll in on a feed next to the video player. This project also came with some press coverage: <a href="https://mashable.com/2012/06/25/youtube-realtime-comments/#dMtyzZMNsqqL" target="_blank">Mashable</a> and <a href="https://www.cnet.com/news/youtube-real-time-shows-instant-comment-reactions/" target="_blank">CNET</a>, to name a couple. This project is another example of one that had to be tabled due to API changes and to be perfectly honest, it never quite gained enough traction after the initial press coverage to keep up with maintenance.
+            </p>
+
+            <br>
+            <h2>FIFA Encyclopedia</h2>
+            <span class="project-subtitle">Source code not public - built in 2010</span>
+            <img src="fe-logo.jpg" class="project-img" align="left">
+            <p>
+                <a href="http://www.fifaencyclopedia.com" target="_blank">FIFA Encyclopedia</a> was my first venture into the world of programming and building things to share with others. I initially built the website as an experiment but as it began to build up a lot of traffic, I started monetizing the site with Google Adsense and some affiliate programs. The site was first built with completely static HTML,  but I started to learn more as I worked in some PHP and eventually a custom Wordpress theme.
+            </p>
+
+            <p>
+                In all, the site has received over 12 million impressions in its lifetime. At it's peak, the site provided me with the moment I knew I wanted to pursue this "build stuff for the internet" thing: one day I logged into my Google Analytics account to see that 100 people were visiting my site all at once! From that point on, I've always loved building things and sharing them with others.
+            </p>
+
+            <br>
+            <a href="mailto:lyons340@gmail.com" class="email-link">
+                <div id="end-email">
+                    <img src="envelope.png" class="envelope-icon" align="right">
+                    <span class="email-subline">I'm looking for a job.</span>
+                    <p>If you are hiring an entry-level Software Engineer, I am currently looking for my first post-college job. I am open to relocating to most locations, but would love to hear about your company if you have an opening you think I may be a good fit for! Click anywhere in this box to email me, or right click to copy email address.</p>
+                </div>
+            </a>
+        </div>
+    </body>
+</html>
