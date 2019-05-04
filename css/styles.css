@@ -37,7 +37,8 @@ a:hover{
     top:0;
     left:0;
     height: 100vh;
-    position:relative;
+    position:fixed;
+    z-index:-10;
     background-image: linear-gradient(rgba(23, 34,52,1), rgba(88, 112, 138,1));
 }
 
@@ -57,4 +58,38 @@ a:hover{
     width:100%;
     text-align: center;
     top:200px;
+}
+
+.profile-img {
+    border-radius: 100px;
+    display:inline-block;
+    border:6px solid rgba(88, 112, 138,1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#links{
+    position: absolute;
+    top:460px;
+    text-align: center;
+    width:100%;
+    color:#fff;
+}
+
+.link-item{
+    font-size:30px;
+    display: block;
+    width:280px;
+    text-align: center;
+    border:2px solid #fff;
+    border-radius: 5px;
+    padding-bottom: 9px;
+    padding-top:5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
 }
