@@ -33,10 +33,10 @@ a:hover{
 
 #particle-container{
     width:100%;
-    background-color: red;
     top:0;
     left:0;
     height: 100vh;
+    background-image: linear-gradient(rgba(23, 34,52,1), rgba(88, 112, 138,1));
 }
 
 #links-container{
