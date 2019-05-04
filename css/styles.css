@@ -14,7 +14,8 @@ body{
 }
 
 h1 {
-    font-size: 45px;
+    font-size: 7em;
+    color:#fff;
 }
 
 p {
@@ -36,7 +37,12 @@ a:hover{
     top:0;
     left:0;
     height: 100vh;
+    position:relative;
     background-image: linear-gradient(rgba(23, 34,52,1), rgba(88, 112, 138,1));
+}
+
+.name-h1{
+    
 }
 
 #links-container{
@@ -44,4 +50,11 @@ a:hover{
     height: 100vh;
     position:absolute;
     top:100vh;
+}
+
+#text-container{
+    position: absolute;
+    width:100%;
+    text-align: center;
+    top:200px;
 }
