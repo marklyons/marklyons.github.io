@@ -37,7 +37,7 @@ a:hover{
     top:0;
     left:0;
     height: 100vh;
-    position:fixed;
+    position:absolute;
     z-index:-10;
     background-image: linear-gradient(rgba(23, 34,52,1), rgba(88, 112, 138,1));
 }
@@ -46,7 +46,7 @@ a:hover{
     
 }
 
-#links-container{
+#projects-container{
     width:100%;
     height: 100vh;
     position:absolute;
@@ -92,4 +92,51 @@ a:hover{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 12px;
+}
+
+h2{
+    margin-bottom: 2px;
+    margin-left:30px;
+}
+
+p{
+    margin-top:0px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+h1.proj-header{
+    color:#000;
+    margin-left:30px;
+    font-size:38px;
+}
+
+.project-subtitle{
+    color: #474747;
+    font-style: italic;
+    display: inline-block;
+    width:100%;
+    margin-bottom:20px;
+    margin-left:30px;
+}
+
+
+.project-img{
+    margin-left:30px;
+    margin-right:35px;
+    margin-bottom:10px;
+    width:200px;
+}
+
+#end-email{
+    background-color:#ccc;
+    padding:10px;
+    border:2px dashed #474747;
+}
+
+#end-email .email-subline{
+    font-weight:bold;
+    font-size:25px;
+    display:inline-block;
+    margin-bottom:10px;
 }
