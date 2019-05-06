@@ -36,6 +36,7 @@ a:hover{
     width:100%;
     top:0;
     left:0;
+    min-height:900px;
     max-height:950px;
     height: 100vh;
     position:relative;
@@ -76,14 +77,14 @@ a:hover{
     position: absolute;
     left: 0;
     right: 0;
-    top:65px;
+    top:25px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #links{
     position: absolute;
-    top:490px;
+    top:450px;
     text-align: center;
     width:100%;
     color:#fff;
@@ -164,4 +165,8 @@ h1.proj-header{
     font-size:25px;
     display:inline-block;
     margin-bottom:10px;
+}
+
+.svg-name text{
+    font-size:106px;
 }
