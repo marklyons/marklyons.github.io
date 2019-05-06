@@ -92,15 +92,15 @@ a:hover{
 .link-item{
     font-size:30px;
     display: block;
-    width:280px;
+    width:290px;
     text-align: center;
     border:2px solid #fff;
     border-radius: 5px;
-    padding-bottom: 9px;
-    padding-top:5px;
+    padding-bottom: 17px;
+    padding-top:12px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 12px;
+    margin-bottom: 13px;
     cursor:pointer;
     position: relative;
     z-index: 9999;
@@ -121,6 +121,7 @@ h2{
 }
 
 p{
+    font-size:19px;
     margin-top:0px;
     padding-left:30px;
     padding-right:30px;
@@ -135,6 +136,7 @@ h1.proj-header{
 }
 
 .project-subtitle{
+    font-size: 19px;
     color: #474747;
     font-style: italic;
     display: inline-block;
