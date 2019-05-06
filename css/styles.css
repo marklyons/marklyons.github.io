@@ -111,7 +111,10 @@ a:hover{
 
 .link-item:hover{
     text-decoration: none;
-    background-color: rgba(88, 112, 138,1);
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
 }
 
 h2{
@@ -169,4 +172,9 @@ h1.proj-header{
 
 .svg-name text{
     font-size:106px;
+}
+
+#sitelytics-img{
+    width:180px;
+    border-radius: 20px;
 }
